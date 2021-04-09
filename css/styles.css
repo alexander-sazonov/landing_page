@@ -1,0 +1,135 @@
+body{
+    font-family: 'Khula', sans-serif;
+}
+.content{
+    max-width: 944px;
+    margin: 0 auto;
+}
+.bg_white{
+    background-color: #fff;
+}
+.bg_gray{
+    border-color: #F6F6F6;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #828282;
+}
+.nav li{
+    list-style: none;
+}
+.nav__item{
+    margin-left: 15px;
+    text-decoration: none;
+    color: #828282;
+}
+.nav__item_active{
+    color:#000;
+}
+
+.title__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+.title__name{
+    font-weight: 700;
+    font-size: 47px;
+    color: #070707;
+}
+.title__lang{
+    writing-mode: vertical-lr;
+    font-size: 16px;
+}
+.title__bottom{
+    padding-bottom: 105px;
+}
+.title__bottom img{
+    width: 100%;
+}
+.section__title{
+    font-size: 34px;
+}
+#about{
+    background-color: #F6F6F6;
+    padding-top: 120px;
+    padding-bottom: 107px;
+}
+.about__content{
+    width: 485px;
+    margin: 0 auto;
+}
+.about__title, .about__text{
+    text-align: center;
+}
+.about__title{
+    font-size: 34px;
+}
+.about__text{
+    font-size: 18px;
+}
+.about__text p{
+    margin-bottom: 30px;
+}
+
+#skills{
+    text-align: center;
+    padding-bottom: 110px;
+    padding-top: 90px;
+}
+.skills__photoshop, .skills__illustrator, .skills__aftereffects, .skills__figma{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.skills__images{
+    display: flex;
+    justify-content: space-between;
+}
+.skills__img{
+    height: 90px;
+}
+.skills__title{
+    font-size: 34px;
+    font-weight: 700;
+}
+.skills__text{
+    font-size: 18px;
+    margin-bottom: 83px;
+}
+.skills__images p{
+    font-size: 14px;
+}
+#portfolio{
+    text-align: center;
+}
+.portfolio__title{
+    font-size: 34px;
+}
+#contacts{
+    text-align: center;
+    padding: 50px 0;
+}
+.contacts__content{
+    width: 342px;
+    margin: 0 auto;
+}
+
+.contacts__btn{
+    border: none;
+    border-radius: 20px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+.contacts__title{
+    font-size: 34px;
+}
